@@ -1,0 +1,16 @@
+.index-box {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  padding-top: 60px;
+}
+
+.index-box a {
+  font-size: 12px;
+  color: white;
+  padding: 4px 6px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  margin-bottom: 2px;
+  background-color: var(--skyblue);
+}

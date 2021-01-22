@@ -1,0 +1,32 @@
+.mainbox-profile__TT {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.mainbox-profile__TT span {
+  margin-right: 5px;
+}
+
+.mainbox-profile__TT span:nth-child(2) {
+  color: red;
+}
+
+.mainbox-profile__introduce {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 430px;
+  align-items: center;
+  background-color: white;
+  border: var(--main-border);
+  border-radius: 8px;
+}
+
+.mainbox-profile {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
