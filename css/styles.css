@@ -6,6 +6,7 @@
 @import "component/index-box.css";
 @import "component/mainbox-profile.css";
 @import "component/mainbox-home.css";
+@import "component/music-box.css";
 
 @import "home.css";
 
@@ -28,7 +29,7 @@ body {
   margin: 40px 110px 50px 50px;
   width: 875px;
   height: 500px;
-  background-color: #f2f6f3;
+  background-color: var(--grey);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -37,4 +38,8 @@ body {
 .mainbox__page {
   display: flex;
   align-items: center;
+}
+
+.mainbox__side {
+  display: flex;
 }

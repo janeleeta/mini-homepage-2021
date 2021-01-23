@@ -155,8 +155,45 @@
 .mainpost-count {
   margin-left: 5px;
   color: var(--skyblue);
+  font-size: 12px;
 }
 
 .recent-guestbook {
   margin-right: 20px;
+}
+
+.recent-guestbook span:last-child {
+  background-color: var(--orange);
+  border: 1px solid var(--skyblue);
+  border-radius: 2px;
+  width: 3px;
+  height: 3px;
+  color: white;
+  font-size: 8px;
+}
+
+.mainbox-home__column:last-child > span {
+  margin-top: 60px;
+  margin-bottom: 6px;
+  display: block;
+  color: var(--skyblue);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mainbox-home__column:last-child div {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.friends-say span {
+  margin-right: 7px;
+}
+
+.friends-say span:last-child {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.3);
 }
