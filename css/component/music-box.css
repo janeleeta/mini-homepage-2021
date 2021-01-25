@@ -1,6 +1,6 @@
 .music-box {
   width: 190px;
-  height: 120px;
+  height: 125px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,13 +45,16 @@
 
 .music-box__column:last-child {
   background-color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .musix-box__musicbar:first-child {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 170px;
   height: 20px;
-  margin: 8px 10px 0px 10px;
+  margin: 6px 10px;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -66,6 +69,7 @@
 
 .musix-box__musicbar:first-child i {
   animation: musicspin 2s linear infinite;
+  color: hsl(214, 29%, 48%);
 }
 
 @keyframes musicspin {
@@ -91,4 +95,38 @@
     transform: translateX(30px);
     opacity: 0;
   }
+}
+
+.musix-box__musicbar:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  background-color: var(--grey);
+  padding: 3px 10px 5px 10px;
+}
+
+.musix-box__musicbar:last-child i:first-child {
+  color: var(--orange);
+}
+
+.musix-box__musicbar:last-child i:nth-child(1, 2) {
+  font-size: 4px;
+}
+
+.musix-box__musicbar:last-child input {
+  margin: 0px 5px 0px -2px;
+  width: 45px;
+  height: 5px;
+}
+
+.musix-box__musicbar:last-child i {
+  margin-right: 6px;
+}
+
+.musix-box__musicbar:last-child span {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 1px;
+  color: white;
+  padding: 0px 3px;
 }

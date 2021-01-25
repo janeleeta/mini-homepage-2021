@@ -9,6 +9,7 @@
 @import "component/music-box.css";
 
 @import "home.css";
+@import "photobook.css";
 
 body {
   box-sizing: border-box;
@@ -19,17 +20,33 @@ a {
   text-decoration: none;
 }
 
+a:active {
+  color: var(--skyblue);
+}
+
 body {
   background-color: #4d9bb3;
   width: 100%;
   height: 100%;
 }
 
-.mainbox {
+.div-mainbox {
   margin: 40px 110px 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 895px;
+  height: 520px;
+  border-radius: 10px;
+  border: 1.5px dashed whitesmoke;
+}
+
+.mainbox {
+  margin: 60px 90px 60px 90px;
   width: 875px;
   height: 500px;
   background-color: var(--grey);
+  border: var(--main-border);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;

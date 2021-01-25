@@ -25,6 +25,17 @@
   border-radius: 8px;
 }
 
+.mainbox-profile__info {
+  padding: 5px 10px;
+  width: 170px;
+}
+
+.profile-info__inline {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: -7px;
+}
+
 .mainbox-profile {
   display: flex;
   flex-direction: column;

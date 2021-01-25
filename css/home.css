@@ -72,17 +72,6 @@
   font-weight: 500;
 }
 
-.mainbox-profile__info {
-  padding: 5px 10px;
-  width: 170px;
-}
-
-.profile-info__inline {
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: -7px;
-}
-
 .mainbox-profile__info div span:first-child {
   font-size: 14px;
   color: var(--skyblue);

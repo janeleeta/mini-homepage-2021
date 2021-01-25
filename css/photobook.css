@@ -1,0 +1,15 @@
+.mainbox-profile__photobook-index {
+  display: flex;
+  flex-direction: column;
+}
+
+.photobook-index__column:first-child {
+  padding-top: 10px;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--skyblue);
+}
