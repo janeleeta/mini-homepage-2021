@@ -3,12 +3,12 @@
 }
 
 .mainbox-home__main {
-  width: 610px;
+  width: 640px;
   height: 414px;
   border: var(--main-border);
   border-radius: 8px;
   background-color: white;
-  padding: 8px 20px;
+  padding: 8px 5px;
 }
 
 .mainbox-home__header {

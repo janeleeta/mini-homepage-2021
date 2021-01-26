@@ -3,13 +3,121 @@
   flex-direction: column;
 }
 
-.photobook-index__column:first-child {
-  padding-top: 10px;
+.photobook-index__title {
+  padding-top: 20px;
+  padding-bottom: 3px;
   width: 180px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   color: var(--skyblue);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.photobook-index__title div {
+  display: flex;
+  background-color: var(--skyblue);
+  border-radius: 3px;
+  color: white;
+  width: 40px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.photobook-index__folder a {
+  padding-top: 4px;
+  padding-left: 3px;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.photobook-index__folder span {
+  margin-left: 7px;
+  color: var(--blue);
+}
+
+.photobook-index__folder i {
+  color: #f8d94c;
+  font-size: 14px;
+}
+
+.photobook-scroller {
+  width: 640px;
+  height: 414px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.photobook-main__title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.07);
+  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  height: 24px;
+  padding: 0px 3px;
+}
+
+.photobook-main__title div:first-child {
+  width: 33%;
+}
+
+.photobook-main__title div:last-child {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photobook-main__title div:last-child span:last-child {
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+  height: 16px;
+}
+
+.mainbox-home__main--photobook {
+  padding: 5px 15px;
+}
+
+.photobook-main__column {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px 3px;
+}
+
+.photobook-main__column div:first-child span {
+  color: var(--blue);
+}
+
+.photobook-main__column div:last-child {
+  font-size: 12px;
+}
+
+.photobook-main__column div:last-child span:last-child {
+  margin-left: 10px;
+}
+
+.photobook-main__content {
+  padding: 10px 2px;
+}
+
+.photobook-main__content img {
+  width: 140px;
+  height: 200px;
+}
+
+.photobook-main__content p {
+  width: 200px;
+  font-size: 12px;
 }

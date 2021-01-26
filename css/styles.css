@@ -38,7 +38,7 @@ body {
   width: 895px;
   height: 520px;
   border-radius: 10px;
-  border: 1.5px dashed whitesmoke;
+  border: 1.5px dashed rgb(230, 230, 230);
 }
 
 .mainbox {
