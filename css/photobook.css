@@ -121,3 +121,8 @@
   width: 200px;
   font-size: 12px;
 }
+
+.index-box--photobook a:nth-child(2) {
+  background-color: white;
+  color: black;
+}

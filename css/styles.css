@@ -10,6 +10,7 @@
 
 @import "home.css";
 @import "photobook.css";
+@import "guestbook.css";
 
 body {
   box-sizing: border-box;
