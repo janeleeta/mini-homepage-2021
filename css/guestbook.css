@@ -4,7 +4,7 @@
 }
 
 .mainbox-home__main--guestbook {
-  margin: 5px 10px;
+  margin: 5px 15px;
 }
 
 .guestbook-main__bar {
@@ -16,7 +16,7 @@
   border-top: 1.5px solid rgba(0, 0, 0, 0.1);
   font-size: 12px;
   height: 24px;
-  padding: 0px 15px;
+  padding: 0px 10px 0px 15px;
 }
 
 .guestbook-main__bar span {
